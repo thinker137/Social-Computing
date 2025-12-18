@@ -1,0 +1,2 @@
+threshold,precision,recall,false_positive_rate,intervened_ratio_all,estimated_spread_reduction_ratio
+0.4616407360840109,0.9533333333333334,0.9533333333333334,0.04666666666666667,0.5,0.07360153022810981

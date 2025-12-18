@@ -1,0 +1,188 @@
+{
+  "content_only": {
+    "LR": {
+      "val": {
+        "roc_auc": 0.6658800084204617,
+        "pr_auc": 0.10470084289542825,
+        "recall_at_precision_0.95": 0.0,
+        "n": 15001
+      },
+      "test": {
+        "roc_auc": 0.6483331929824561,
+        "pr_auc": 0.09777910921956837,
+        "recall_at_precision_0.95": 0.0,
+        "n": 15000
+      },
+      "selected_threshold_on_val": {
+        "threshold": 0.9428174807629803,
+        "precision": 0.44680851063829785,
+        "recall": 0.028
+      },
+      "test_confusion_at_selected_threshold": {
+        "tp": 24,
+        "fp": 30,
+        "tn": 14220,
+        "fn": 726,
+        "precision": 0.4444444444444444,
+        "recall": 0.032,
+        "false_positive_rate": 0.002105263157894737
+      },
+      "model_path": "outputs/01_train_eval\\model_content_only_LR.joblib",
+      "perm_importance_path": "outputs/01_train_eval\\perm_importance_content_only_LR.csv"
+    },
+    "HGB": {
+      "val": {
+        "roc_auc": 0.8209354197366268,
+        "pr_auc": 0.42708027029502393,
+        "recall_at_precision_0.95": 0.22266666666666668,
+        "n": 15001
+      },
+      "test": {
+        "roc_auc": 0.8071967719298245,
+        "pr_auc": 0.3817307840028488,
+        "recall_at_precision_0.95": 0.08666666666666667,
+        "n": 15000
+      },
+      "selected_threshold_on_val": {
+        "threshold": 0.6224647500624648,
+        "precision": 0.9542857142857143,
+        "recall": 0.22266666666666668
+      },
+      "test_confusion_at_selected_threshold": {
+        "tp": 122,
+        "fp": 13,
+        "tn": 14237,
+        "fn": 628,
+        "precision": 0.9037037037037037,
+        "recall": 0.16266666666666665,
+        "false_positive_rate": 0.000912280701754386
+      },
+      "model_path": "outputs/01_train_eval\\model_content_only_HGB.joblib",
+      "perm_importance_path": "outputs/01_train_eval\\perm_importance_content_only_HGB.csv"
+    }
+  },
+  "social_only": {
+    "LR": {
+      "val": {
+        "roc_auc": 0.6271449488924754,
+        "pr_auc": 0.07201442523569804,
+        "recall_at_precision_0.95": 0.004,
+        "n": 15001
+      },
+      "test": {
+        "roc_auc": 0.6327552748538012,
+        "pr_auc": 0.07659931098291842,
+        "recall_at_precision_0.95": 0.0013333333333333333,
+        "n": 15000
+      },
+      "selected_threshold_on_val": {
+        "threshold": 0.8391760421084427,
+        "precision": 1.0,
+        "recall": 0.004
+      },
+      "test_confusion_at_selected_threshold": {
+        "tp": 5,
+        "fp": 3,
+        "tn": 14247,
+        "fn": 745,
+        "precision": 0.625,
+        "recall": 0.006666666666666667,
+        "false_positive_rate": 0.0002105263157894737
+      },
+      "model_path": "outputs/01_train_eval\\model_social_only_LR.joblib",
+      "perm_importance_path": "outputs/01_train_eval\\perm_importance_social_only_LR.csv"
+    },
+    "HGB": {
+      "val": {
+        "roc_auc": 0.8465802633733305,
+        "pr_auc": 0.410937342279954,
+        "recall_at_precision_0.95": 0.05733333333333333,
+        "n": 15001
+      },
+      "test": {
+        "roc_auc": 0.8546239064327485,
+        "pr_auc": 0.406793173911768,
+        "recall_at_precision_0.95": 0.050666666666666665,
+        "n": 15000
+      },
+      "selected_threshold_on_val": {
+        "threshold": 0.8679746818248304,
+        "precision": 0.9555555555555556,
+        "recall": 0.05733333333333333
+      },
+      "test_confusion_at_selected_threshold": {
+        "tp": 36,
+        "fp": 2,
+        "tn": 14248,
+        "fn": 714,
+        "precision": 0.9473684210526315,
+        "recall": 0.048,
+        "false_positive_rate": 0.00014035087719298245
+      },
+      "model_path": "outputs/01_train_eval\\model_social_only_HGB.joblib",
+      "perm_importance_path": "outputs/01_train_eval\\perm_importance_social_only_HGB.csv"
+    }
+  },
+  "fusion_all": {
+    "LR": {
+      "val": {
+        "roc_auc": 0.7189953453558815,
+        "pr_auc": 0.11530322573183144,
+        "recall_at_precision_0.95": 0.0,
+        "n": 15001
+      },
+      "test": {
+        "roc_auc": 0.7077339883040936,
+        "pr_auc": 0.11300313373967422,
+        "recall_at_precision_0.95": 0.0,
+        "n": 15000
+      },
+      "selected_threshold_on_val": {
+        "threshold": 0.9549254685054899,
+        "precision": 0.5,
+        "recall": 0.02
+      },
+      "test_confusion_at_selected_threshold": {
+        "tp": 24,
+        "fp": 19,
+        "tn": 14231,
+        "fn": 726,
+        "precision": 0.5581395348837209,
+        "recall": 0.032,
+        "false_positive_rate": 0.0013333333333333333
+      },
+      "model_path": "outputs/01_train_eval\\model_fusion_all_LR.joblib",
+      "perm_importance_path": "outputs/01_train_eval\\perm_importance_fusion_all_LR.csv"
+    },
+    "HGB": {
+      "val": {
+        "roc_auc": 0.9313686992725656,
+        "pr_auc": 0.7143642061070312,
+        "recall_at_precision_0.95": 0.368,
+        "n": 15001
+      },
+      "test": {
+        "roc_auc": 0.9367992046783626,
+        "pr_auc": 0.6933337449562581,
+        "recall_at_precision_0.95": 0.228,
+        "n": 15000
+      },
+      "selected_threshold_on_val": {
+        "threshold": 0.7254695041485103,
+        "precision": 0.9517241379310345,
+        "recall": 0.368
+      },
+      "test_confusion_at_selected_threshold": {
+        "tp": 238,
+        "fp": 20,
+        "tn": 14230,
+        "fn": 512,
+        "precision": 0.9224806201550387,
+        "recall": 0.31733333333333336,
+        "false_positive_rate": 0.0014035087719298245
+      },
+      "model_path": "outputs/01_train_eval\\model_fusion_all_HGB.joblib",
+      "perm_importance_path": "outputs/01_train_eval\\perm_importance_fusion_all_HGB.csv"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "label_col": "class",
+  "content_cols": [
+    "no_hashtag",
+    "no_urls",
+    "no_char",
+    "no_digits"
+  ],
+  "missing_content_cols": [],
+  "social_cols": [
+    "account_age",
+    "no_follower",
+    "no_following",
+    "no_userfavourites",
+    "no_lists",
+    "no_tweets",
+    "no_retweets",
+    "no_usermention"
+  ],
+  "missing_social_cols": [],
+  "fusion_cols": [
+    "no_hashtag",
+    "no_urls",
+    "no_char",
+    "no_digits",
+    "account_age",
+    "no_follower",
+    "no_following",
+    "no_userfavourites",
+    "no_lists",
+    "no_tweets",
+    "no_retweets",
+    "no_usermention"
+  ],
+  "missing_fusion_cols": []
+}

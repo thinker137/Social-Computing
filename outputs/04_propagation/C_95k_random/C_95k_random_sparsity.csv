@@ -1,0 +1,4 @@
+dataset,feature,p_gt0_spam,p_gt0_nonspam
+C_95k_random,no_retweets,0.234,0.20893684210526317
+C_95k_random,no_urls,1.0,1.0
+C_95k_random,no_usermention,0.2976,0.32782105263157896

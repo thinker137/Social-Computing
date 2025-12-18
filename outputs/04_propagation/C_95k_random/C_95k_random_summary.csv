@@ -1,0 +1,4 @@
+dataset,feature,n,spam_ratio,nonspam_mean,nonspam_median,nonspam_p25,nonspam_p75,spam_mean,spam_median,spam_p25,spam_p75,mean_ratio_spam_over_nonspam,roc_auc_single_feature
+C_95k_random,no_retweets,100000,0.05,255.67764210526315,0.0,0.0,0.0,725.6218,0.0,0.0,0.0,2.8380338383332697,0.5172117494736842
+C_95k_random,no_urls,100000,0.05,1.0547578947368421,1.0,1.0,1.0,1.0924,1.0,1.0,1.0,1.0356879104209498,0.5280001863157895
+C_95k_random,no_usermention,100000,0.05,0.41566315789473685,0.0,0.0,1.0,0.3716,0.0,0.0,1.0,0.8939931118314425,0.48237861263157894
